@@ -183,7 +183,7 @@ public class Ambimage
 			sDark = scale(dark, width, height);
 			sLight = scale(light, width, height);
 		}
-		System.out.println("Result will be "+width+ " x "+height);
+		System.out.println("Output will be "+width+ " x "+height+"!");
 
 		BufferedImage result = new BufferedImage(width, height, BufferedImage.TYPE_INT_ARGB);
 
@@ -199,6 +199,7 @@ public class Ambimage
 		}
 
 		ImageIO.write(result, outputFormat.value(optionSet), output.value(optionSet));
+		System.out.println("Output written to "+output.value(optionSet).getAbsolutePath()+"!");
 	}
 
 	private static void combineFair(BufferedImage dark, BufferedImage light,

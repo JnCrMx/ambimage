@@ -19,11 +19,20 @@ Use ``--help`` for more options.
 
 ## Example
 
-![](examples/noire.png =100x)
-\+
-![](examples/uni.png =100x)
-=
-![](examples/output.png =100x)
+*Kinda bad example, 
+because text usually has huge overlap, 
+but I don't have better example I can publish.*
+
+![](examples/dark_light.png)
+
+Looks like this in Discord's dark theme:
+![](examples/screenshot_dark.png)
+
+and like this in Discord's light theme:
+![](examples/screenshot_light.png)
+
+You can clearly see the overlaps,
+but with e.g. drawings it's a lot better.
 
 ## Applications
 
