@@ -26,9 +26,11 @@ but I don't have better example I can publish.*
 ![](examples/dark_light.png)
 
 Looks like this in Discord's dark theme:
+
 ![](examples/screenshot_dark.png)
 
 and like this in Discord's light theme:
+
 ![](examples/screenshot_light.png)
 
 You can clearly see the overlaps,
